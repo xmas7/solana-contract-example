@@ -1,2 +1,3 @@
 # SolanaContractExample
-My customized 'Saying Hello Example' - a good example for newbies.
+If you are finding solana smart contract example, then you are right there.
+
