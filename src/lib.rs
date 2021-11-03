@@ -36,7 +36,7 @@ pub fn process_instruction(
     
     // limit greeting_account.count
     if greeting_account.counter > 5 {
-        u32 isEnd = _instruction_data[0] as u32;
+        let isEnd: u32 = _instruction_data[0] as u32;
         if isEnd == 1 {
             greeting_account.counter = 0;
         } else {
